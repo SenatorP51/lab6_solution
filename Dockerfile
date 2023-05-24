@@ -22,7 +22,7 @@ ADD alpine-minirootfs-3.17.3-aarch64.tar /
 # niezbędnych komponentów środowiska roboczego
 RUN apk update && \
     apk upgrade && \
-    apk add --no-cache nodejs=18.14.2-r0 \
+    apk add --no-cache nodejs \
     npm=9.1.2-r0 \
     openssh-client \
     git && \
