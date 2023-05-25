@@ -1,0 +1,7 @@
+# insecure-entitlements allows insecure entitlements, disabled by default.
+insecure-entitlements = [ "network.host", "security.insecure" ]
+
+[registry."192.168.10.21:5100"]
+  http = true
+  insecure = true
+  
