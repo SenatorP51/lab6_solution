@@ -1,7 +1,0 @@
-# insecure-entitlements allows insecure entitlements, disabled by default.
-insecure-entitlements = [ "network.host", "security.insecure" ]
-
-[registry."localhost:5100"]
-  http = true
-  insecure = true
-  
